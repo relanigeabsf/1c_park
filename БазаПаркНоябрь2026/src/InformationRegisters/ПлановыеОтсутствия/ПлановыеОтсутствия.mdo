@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e55ca2c9-0b4f-48a9-b393-787e3a082887">
+  <producedTypes>
+    <selectionType typeId="381628fd-53ab-4ef9-a3a8-d365af78685c" valueTypeId="b293b8e3-4140-4424-b0b3-fe35d309e0f4"/>
+    <listType typeId="afb41333-398b-47c9-864c-86557f6a518e" valueTypeId="14e2ac22-029c-4199-ba9f-ab3bc6327ab7"/>
+    <managerType typeId="4341cc8a-2967-4781-a0b2-e19062c1b05c" valueTypeId="0001f60a-e599-4c50-945b-a08479ec683e"/>
+    <recordSetType typeId="1e74f572-0982-4242-8ed1-4455852accdb" valueTypeId="20b87c4e-2927-4173-aa10-c8e8cff95f96"/>
+    <recordKeyType typeId="45ca3acc-db71-4535-8657-342e66c2998e" valueTypeId="ee8e99c9-32db-4214-a6da-11dfbc0a7984"/>
+    <recordType typeId="e8505b05-732f-4b7f-acfa-ac9a357ff642" valueTypeId="9ca65047-0480-408f-a688-744ab00e6c15"/>
+    <recordManagerType typeId="1f7d524d-fe19-43b9-877f-56c22abbef96" valueTypeId="fa5e1820-170f-42a7-b04c-1dd5e3c7994e"/>
+  </producedTypes>
+  <name>ПлановыеОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плановые отсутствия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="a03128be-8697-4699-b3af-d2c4579cd49d">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c7708835-84db-4a57-b80e-6f414f9a6e3d">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="47515ff8-caed-4291-8eb9-b6c2e0faf08e">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b65f5fcb-20cb-448c-bf0a-fd721b59f230">
+  <name>УправлениеПаркомАттракционов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление парком аттракционов</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2d022d2f-4d69-4f4a-afc9-3085dacb0535"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4ff5b569-ba4b-483f-b970-74523ecec4f0"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c2f6b204-e96f-4e74-9c38-4f9b2ce75cfd"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="cb01e9ff-a174-44cb-98b6-ba37926554c4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b7315946-4a0b-40ac-9f42-2923d99a98e4"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="4499e6fd-80e6-485b-a18c-fb3f45229cab"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="739e77e0-2fdf-4357-8395-ab0461def7a6"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Фирма 1с</vendor>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <mainSectionPicture/>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Фирма 1с</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="b6f34003-b218-4df1-b653-a79afb831c7e">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Посещения</subsystems>
+  <subsystems>Subsystem.Персонал</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <commonPictures>CommonPicture.РазделАдминистрирование</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.Кассир</roles>
+  <roles>Role.ОператорАттракциона</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <commonModules>CommonModule.НомераТелефоновКлиентСервер</commonModules>
+  <commonModules>CommonModule.Пользователи</commonModules>
+  <constants>Constant.МаксимальнаяДоляОплатыБаллами</constants>
+  <commonForms>CommonForm.МониторРуководителя</commonForms>
+  <catalogs>Catalog.Аттракционы</catalogs>
+  <catalogs>Catalog.ВидыАттракционов</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ПланированиеОтсутствия</documents>
+  <documents>Document.ПосещениеАттракциона</documents>
+  <documents>Document.ПродажаБилета</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.ШкалаБонуснойПрограммы</documents>
+  <enums>Enum.ВидНоменклатуры</enums>
+  <enums>Enum.РолиПользователей</enums>
+  <reports>Report.ПопулярныеАттракционы</reports>
+  <reports>Report.ПродажиПоАттракционам</reports>
+  <reports>Report.СтатистикаПосещений</reports>
+  <reports>Report.ДетализацияПосещений</reports>
+  <dataProcessors>DataProcessor.ПереходНаНовыеВерсии</dataProcessors>
+  <dataProcessors>DataProcessor.ПланированиеОтпусков</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоКассира</dataProcessors>
+  <dataProcessors>DataProcessor.ВыгрузкаНаСайт</dataProcessors>
+  <informationRegisters>InformationRegister.АктуальнаяШкалаБонуснойПрограммы</informationRegisters>
+  <informationRegisters>InformationRegister.ПлановыеОтсутствия</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.АктивныеПосещения</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.БонусныеБаллыКлиентов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПосещениеАттракционов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>
